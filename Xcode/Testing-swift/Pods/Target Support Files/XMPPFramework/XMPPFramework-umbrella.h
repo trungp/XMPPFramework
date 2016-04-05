@@ -106,6 +106,7 @@
 #import "XMPPDateTimeProfiles.h"
 #import "XMPPMessage+XEP_0085.h"
 #import "XMPPSoftwareVersion.h"
+#import "XMPPSIFileTransfer.h"
 #import "XMPPTransports.h"
 #import "NSString+XEP_0106.h"
 #import "XMPPCapabilitiesCoreDataStorage.h"
@@ -144,6 +145,7 @@
 #import "XMPPMessage+XEP_0333.h"
 #import "NSXMLElement+XEP_0335.h"
 #import "NSXMLElement+XEP_0352.h"
+#import "XMPPIQ+XEP_0357.h"
 
 FOUNDATION_EXPORT double XMPPFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char XMPPFrameworkVersionString[];
