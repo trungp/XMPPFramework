@@ -13,6 +13,7 @@
 #import "XMPPSIFileTransfer.h"
 #import "XMPPFramework.h"
 #import "XMPPLogging.h"
+#import "GCDAsyncSocket.h"
 //#import "XMPPMessage.h"
 //#import "NSXMLElement+XMPP.h"
 //#import "TURNSocket.h"

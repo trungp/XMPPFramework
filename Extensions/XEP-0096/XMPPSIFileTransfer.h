@@ -11,8 +11,10 @@
 #import <Foundation/Foundation.h>
 #import "XMPP.h"
 #import "TURNSocket.h"
-#import "GCDAsyncSocket.h"
 #import <UIKit/UIKit.h>
+
+@class GCDAsyncSocket;
+
 typedef enum {
     kXMPPSIFileTransferStateNone,
     kXMPPSIFileTransferStateSending,
