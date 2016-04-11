@@ -74,6 +74,11 @@ static NSString *const XMPPMUCOwnerNamespace = @"http://jabber.org/protocol/muc#
 #pragma mark Room Lifecycle
 
 /**
+ *
+ */
+- (BOOL)preJoinWithNickname:(NSString *)nickname;
+
+/**
  * Sends a presence element to the join room.
  * 
  * If the room already exists, then the xmppRoomDidJoin: delegate method will be invoked upon
